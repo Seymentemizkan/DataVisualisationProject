@@ -8,20 +8,20 @@ This project involves the development of an interactive data visualization dashb
 The project was collaboratively developed by three team members. Below is the breakdown of responsibilities and contributions:
 
 ### 1. Seymen
-*   **Role:** Data Preprocessing & Basic Visualizations
+*   **Role:** Interactivity & Hierarchical Visualizations
 *   **Responsibilities:**
-    *   Loaded and cleaned the dataset (`shopping_behavior.csv`).
-    *   Designed the initial layout of the Streamlit dashboard.
+    *   Implemented sidebar filters for Gender, Category, and Age Range to make the dashboard interactive.
+    *   Handled the logic for dynamic data filtering.
     *   **Visualizations Created:**
         7.  **Spending Distribution (Box Plot):** Analyzes the spread and outliers of purchase amounts across different categories.
         8.  **Review Ratings (Violin Plot):** Displays the density and distribution of review ratings for each category.
         9.  **Age vs. Spending Relationship (Scatter Plot):** Investigates the correlation between customer age and their purchase amount, colored by subscription status.
 
 ### 2. Huseyin
-*   **Role:** Interactivity & Hierarchical Visualizations
+*   **Role:** Data Preprocessing & Basic Visualizations
 *   **Responsibilities:**
-    *   Implemented sidebar filters for Gender, Category, and Age Range to make the dashboard interactive.
-    *   Handled the logic for dynamic data filtering.
+    *   Loaded and cleaned the dataset (`shopping_behavior.csv`).
+    *   Designed the initial layout of the Streamlit dashboard.
     *   **Visualizations Created:**
         4.  **Spending Hierarchy (Treemap):** Visualizes the total spending broken down by Category and specific Items.
         5.  **Seasonal Preferences (Sunburst):** Shows how category preferences change across different seasons.
